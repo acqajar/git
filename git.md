@@ -34,20 +34,4 @@ useful links
 
 ## <a id="chapter-2"></a>
 ### Step 2 - Installing Git on Mac
-1. Before you install git,   .For more, [check this link here](https://www.atlassian.com/git/tutorials/install-git).
-2. [NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence](https://www.amazon.com/NoSQL-Distilled-Emerging-Polyglot-Persistence/dp/0321826620)
-
-
-## Schedule   
-
-|Schedule | Lecture/lab  |   
-| --- | --- |
-| Week 1     | Relational vs NonRelational Databases      
-| Week 2     | Graph Database - *Neo4j*         
-| Week 3     | Key-value - *Redis*         
-| Week 4     | Column-family - *Cassandra*     
-| Week 5     | Document Store -  *MongoDB*         
-| Week 6     | Pymongo, Python and MongoDB              
-| Week 7     | Choosing a NoSQL db landscape          
-| Week 8     | Final
-
+1. Before you install git,  
