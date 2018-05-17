@@ -39,7 +39,7 @@ So what are you looking at here? Well, the white space is the `console` - that's
 3. Now, for some quick basics regarding the command line that will become important later on (dont worry, we will see them a lot later on as well). Below, are a couple of useful commands:
       + `pwd` = print working directory. In other words, if you want to see where you are, type 'pwd' in the command line and it will give you the directory (or `folder`) you are. See pic below - ![pwd](pwd.png)
       + `ls` will show you the list of files in the directory you are currently in. Again, see image below: ![ls](ls.png)
-      + `cd` means "change directory". In other words, if I wanted to change into or go into my "Desktop" directory from the last screenshot, I would type `cd desktop`
+      + `cd` means "change directory". In other words, if I wanted to change into or go into my "Desktop" directory from the last screenshot, I would type `cd desktop` <a id="touch"></a>`
       + `mkdir` and `touch` are about creating new folders and files respectively.  
       + `echo 'Hello, World.' > first_file.txt` is a command that will "echo" the "Hello, World" string into a new file called "first_file.txt" in your current directory. Now that you've written that string into your newly created text file, you can see it typing `more first_file.txt`.
 
@@ -65,9 +65,20 @@ Keep in mind, these are Mac OS directions. Please click on the [following link](
 ## <a id="chapter-3"></a>
 ### Step 3: Lets Git started :)
 
-So, you've got all of this done, where do you go from here? Well, that largely depends on what you are trying to do. In what follows, I will detail a few use cases and then, lastly, summarize the different git commands in a table at the end as well as a "cheat sheet".
+1. <strong>Git In-it #init</strong><br/>
+So you have a  project idea, and you want initialize a `git repository` for your project so you can keep track of the versions. 
+So here's a sample of how this might look like below: ![init](init.png)
 
-1. 
+2. <strong>Create your project </strong> <br/>
+Now it's time to add the first file in your folder! To do so, lets start by running the 
+[`touch` command](#touch) to create a sample file to upload. In this case, I also wanted to add something to file so I added a sentence by `echo`-ing that sentence into the text file created by the touch command. Last, to make sure the echo worked, I run the following in the command line `more sample.txt`. See image below for more.
+![sample](sample.png)
+
+
+3. <strong> Check the Status, Add, and Commit </strong><br/>
+
+
+<br/><br/><br/>
 
 | Option | Description |
 | ------ | -------- |
