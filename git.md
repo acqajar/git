@@ -19,6 +19,7 @@ useful links
 ## Table of Contents
   * [Chapter 1 - the Terminal](#chapter-1)
   * [Chapter 2 - Installing Git on Mac](#chapter-2)
+
   * [Chapter 3 - Getting Started with Git](#chapter-3)
   * [Chapter 4 - Branching with Git](#chapter-4)
 
@@ -47,7 +48,16 @@ Awesome! Now we can begin installing Git, our version controll system i.e. VCS.
 
 ## <a id="chapter-2"></a>
 ### Step 2 - Installing Git on Mac
-1. Before you install git,  
+
+Now in your terminal, at the command line, before you start the process of installing git, check to see if you have Git (in some cases, it might have already come installed given your system configuration). 
+
+To check, on the command line, type `git --version`. 
+
+If not, follow the steps below:
+
+1. [Click here](https://sourceforge.net/projects/git-osx-installer/files/) to start installation.
+2. See image below :). And [see here](https://www.atlassian.com/git/tutorials/install-git) for clearer directions. ![install](git_install.png)
+
 
 
 ## <a id="chapter-3"></a>
