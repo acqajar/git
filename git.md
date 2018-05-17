@@ -33,7 +33,16 @@ useful links
 
 2. Below, is an example of how the terminal will look like. Nice job! You're on your way now to becoming an engineer! :)
 ![Terminal](terminal.png)
+So what are you looking at here? Well, the white space is the `console` - that's where you type commands and see outputs from previously entered commands. The `command line` is where you type your command on the console.
 
+3. Now, for some quick basics regarding the command line that will become important later on (dont worry, we will see them a lot later on as well). Below, are a couple of useful commands:
+      + `pwd` = print working directory. In other words, if you want to see where you are, type 'pwd' in the command line and it will give you the directory (or `folder`) you are. See pic below - ![pwd](pwd.png)
+      + `ls` will show you the list of files in the directory you are currently in. Again, see image below: ![ls](ls.png)
+      + `cd` means "change directory". In other words, if I wanted to change into or go into my "Desktop" directory from the last screenshot, I would type `cd desktop`
+      + `mkdir` and `touch` are about creating new folders and files respectively.  
+      + `echo 'Hello, World.' > first_file.txt` is a command that will "echo" the "Hello, World" string into a new file called "first_file.txt" in your current directory. Now that you've written that string into your newly created text file, you can see it typing `more first_file.txt`.
+
+Awesome! Now we can begin installing Git, our version controll system i.e. VCS. 
 
 
 ## <a id="chapter-2"></a>
