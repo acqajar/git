@@ -70,8 +70,8 @@ Keep in mind, these are Mac OS directions. Please click on the [following link](
 | ------ | -------- |
 | git init   | initialize folder as git repository |
 | git status | print status of files in repo i.e. shows any changes you've made since your last save/commit  |
-| git add | add files to version control|
-|git commit| commit i.e. "save" changes|
+| git add  -A| add files to version control|
+|git commit -m "[save_message]"| commit i.e. "save" changes|
 | git log|  show recent commits|
 |git checkout| create or switch branches|
 |git merge | merge/combine one branch with another
