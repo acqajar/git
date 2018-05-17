@@ -65,6 +65,9 @@ Keep in mind, these are Mac OS directions. Please click on the [following link](
 ## <a id="chapter-3"></a>
 ### Step 3: Lets Git started :)
 
+So, you've got all of this done, where do you go from here? Well, that largely depends on what you are trying to do. In what follows, I will detail a few use cases and then, lastly, summarize the different git commands in a table at the end as well as a "cheat sheet".
+
+1. 
 
 | Option | Description |
 | ------ | -------- |
@@ -75,3 +78,6 @@ Keep in mind, these are Mac OS directions. Please click on the [following link](
 | git log|  show recent commits|
 |git checkout| create or switch branches|
 |git merge | merge/combine one branch with another
+
+
+![cheetsheet](cheatsheet.png)
