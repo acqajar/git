@@ -28,7 +28,7 @@ useful links
 
 ## <a id="chapter-1"></a>
 ### Step 1: The Terminal 
-1. To find your terminal, spotlight search for 'terminal' and select it. See below. 
+1. To find your terminal, spotlight search for 'terminal' and select it. See below. This is the command line interface tool you will use to control the UNIX-based operating system that the Mac OSX sits on :).
 ![Terminal](spotlight.png)
 
 2. Below, is an example of how the terminal will look like. Nice job! You're on your way now to becoming an engineer! :)
