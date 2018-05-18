@@ -31,15 +31,15 @@ useful links
 ## <a id="chapter-1"></a>
 ### Step 1: The Terminal 
 1. To find your terminal, spotlight search for 'terminal' and select it. See below. This is the command line interface tool you will use to control the UNIX-based operating system that the Mac OSX sits on :). If you really want to learn more, [see here](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line).
-![Terminal](spotlight.png)
+![Terminal](./png/spotlight.png)
 
 2. Below, is an example of how the terminal will look like. Nice job! You're on your way now to becoming an engineer! :)
-![Terminal](terminal.png)
+![Terminal](./png/terminal.png)
 So what are you looking at here? Well, the white space is the `console` - that's where you type commands and see outputs from previously entered commands. The `command line` is where you type your command on the console.
 
 3. Now, for some quick basics regarding the command line that will become important later on (dont worry, we will see them a lot later on as well). Below, are a couple of useful commands:
-      + `pwd` = print working directory. In other words, if you want to see where you are, type 'pwd' in the command line and it will give you the directory (or `folder`) you are. See pic below - ![pwd](pwd.png)
-      + `ls` will show you the list of files in the directory you are currently in. Again, see image below: ![ls](ls.png)
+      + `pwd` = print working directory. In other words, if you want to see where you are, type 'pwd' in the command line and it will give you the directory (or `folder`) you are. See pic below - ![pwd](./png/pwd.png)
+      + `ls` will show you the list of files in the directory you are currently in. Again, see image below: ![ls](./png/ls.png)
       + `cd` means "change directory". In other words, if I wanted to change into or go into my "Desktop" directory from the last screenshot, I would type `cd desktop` <a id="touch"></a>`
       + `mkdir` and `touch` are about creating new folders and files respectively.  
       + `echo 'Hello, World.' > first_file.txt` is a command that will "echo" the "Hello, World" string into a new file called "first_file.txt" in your current directory. Now that you've written that string into your newly created text file, you can see it typing `more first_file.txt`.
@@ -57,7 +57,7 @@ To check, on the command line, type `git --version`.
 If not, follow the steps below:
 
 1. [Click here](https://sourceforge.net/projects/git-osx-installer/files/) to start installation. Then follow the prompts to continue installation.
-2. Install the `.pkg` file that you downloaded. If you see the following: ![init](init.png) 
+2. Install the `.pkg` file that you downloaded. If you see the following: ![init](./png/init.png) 
 Please head to System Preferences —> Security and Privacy —> General tab and click on “Open Anyway” at the bottom. Then continue with your installation. If prompted for your pw, pleasze enter it. Then continue with installation.
 
 
@@ -72,7 +72,7 @@ Keep in mind, some of these instructions might vary for PC. Please click on the 
 
 1. <strong>Git In-it #init</strong><br/>
 So you have a  project idea, and you want initialize a `git repository` for your project so you can keep track of the versions. 
-So here's a sample of how this might look like below: ![init](init.png)
+So here's a sample of how this might look like below: ![init](./png/init.png)
 The commands for what you see in the image above are as follows:<br>
 <strong>mkdir [folder_name]</strong><br>
 <strong>cd [folder_name]</strong><br>
@@ -81,7 +81,7 @@ The commands for what you see in the image above are as follows:<br>
 2. <strong>Create your project </strong> <br/>
 Now it's time to add the first file in your folder! To do so, lets start by running the 
 [`touch` command](#touch) to create a sample file to upload. In this case, I also wanted to add something to file so I added a sentence by `echo`-ing that sentence into the text file created by the touch command. Last, to make sure the echo worked, I run the following in the command line `more sample.txt`. See image below for more.
-![sample](sample.png)
+![sample](./png/sample.png)
 The commands run as follows:
 <strong>touch [file_name].txt” e.g. touch file.txt</strong><br>
 <strong>echo ‘Hello Everyone :)!’>file.txt</strong>
@@ -91,7 +91,7 @@ The commands run as follows:
 To check and see your change, do a git status. You should see the sample.txt file you just created as "untracked", and the file name should appear in red. To begin tracking it, you run the following command:
 <br/>`git add -A`<br/>
 Then check the status again by running `git status`. At this point, the file should now appear green. See below.
-![commit](gitco.png)
+![commit](./png/gitco.png)
 Last, run the <strong>git commit -m "[you_custom_message]" </strong>. As seen below:
 <br/> `git commit -m "first commit" `
 <br/><br/><br/>
@@ -123,12 +123,12 @@ Last, run the <strong>git commit -m "[you_custom_message]" </strong>. As seen be
 
 Now, back to your terminal. For the git remote, add in the following:
 
- <strong>git remote add origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git</strong> <br>
-
- if you did add the remote provided by github as is, then you can reset it by using the command below:<br>
- <strong>git remote set-url origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git</strong>
+ <strong>`git remote add origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git`</strong> <br>
+<br>
+ if you did add the remote provided by github as is,then you can reset it by using the command below:<br>
+ <strong>`git remote set-url origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git`</strong>
 
 And finally, you are now ready to execute the last final needed to push to your Github!
 <br> <strong>git push -u origin master</strong>
 <br/><br/><br/><br/>
-![cheetsheet](cheatsheet.png)
+![cheetsheet](./png/cheatsheet.png)
