@@ -21,7 +21,8 @@ useful links
   * [Chapter 2 - Time to Git Installed on Mac OS](#chapter-2)
 
   * [Chapter 3 - Lets Git started :)](#chapter-3)
-  * [Chapter 4 - Branching with Git](#chapter-4)
+  * [Chapter 4 - Sign up on Github ](#chapter-4)
+  * [Chapter 5 - Back to the Terminal!](#chapter-5)
 
 
 
@@ -76,13 +77,15 @@ Now it's time to add the first file in your folder! To do so, lets start by runn
 
 
 3. <strong> Check the Status, Add, and Commit </strong><br/>
-To check and see your change, do a git status. You should see the sample.txt file you just created as "untracked". To begin tracking it, you run the following command:
+To check and see your change, do a git status. You should see the sample.txt file you just created as "untracked", and the file name should appear in red. To begin tracking it, you run the following command:
 <br/>`git add -A`<br/>
-Then check the status again by running `git status`. At this point the file should be a change to be committed. See below.
+Then check the status again by running `git status`. At this point, the file should now appear green. See below.
 ![commit](gitco.png)
+Last, run the <strong>git commit -m "[you_custom_message]" </strong>. As seen below:
+<br/> `git commit -m "first commit" `
 <br/><br/><br/>
 
-
+#### <strong> Here some of the commands we went over in this chapter for you to review :)</strong>
 | Option | Description |
 | ------ | -------- |
 | git init   | initialize folder as git repository |
@@ -94,4 +97,20 @@ Then check the status again by running `git status`. At this point the file shou
 |git merge | merge/combine one branch with another
 
 
+<br/><br/>
+## <a id="chapter-4"></a>
+### Step 4: Sign up on Github
+
+1. [Start Here](https://github.com/) and sign up :)
+2. Once you're done signing up, start by creating a new repository. There should be a green button the left that says "New Repository" and a plus sign, i.e. +, at the top right near the user icon. Select it and select `new repository`. 
+3. On this page, the only item you need to <strong>copy</strong> is the git remote. We will need to modify it slighy for our purposes.
+
+
+<br/><br/>
+## <a id="chapter-5"></a>
+### Step 5: Back to the Terminal!
+
+
+
+<br/><br/><br/><br/><br/><br/>
 ![cheetsheet](cheatsheet.png)
