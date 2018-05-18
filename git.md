@@ -57,9 +57,13 @@ To check, on the command line, type `git --version`.
 If not, follow the steps below:
 
 1. [Click here](https://sourceforge.net/projects/git-osx-installer/files/) to start installation. Then follow the prompts to continue installation.
-2. Check `git --version` once installation is complete. You should see some version installed now. Make sure to set your Git configuration i.e. email and password when prompted.
+2. Install the `.pkg` file that you downloaded. If you see the following: ![init](init.png) 
+Please head to System Preferences —> Security and Privacy —> General tab and click on “Open Anyway” at the bottom. Then continue with your installation. If prompted for your pw, pleasze enter it. Then continue with installation.
 
-Keep in mind, these are Mac OS directions. Please click on the [following link](https://www.atlassian.com/git/tutorials/install-git) if you are using a different system.
+
+3. Check `git --version` once installation is complete. You should see some version installed now. Make sure to set your Git configuration i.e. email and password when prompted.
+
+Keep in mind, some of these instructions might vary for PC. Please click on the [following link](https://www.atlassian.com/git/tutorials/install-git) if you are using a different system.
 
 
 
@@ -69,12 +73,19 @@ Keep in mind, these are Mac OS directions. Please click on the [following link](
 1. <strong>Git In-it #init</strong><br/>
 So you have a  project idea, and you want initialize a `git repository` for your project so you can keep track of the versions. 
 So here's a sample of how this might look like below: ![init](init.png)
+The commands for what you see in the image above are as follows:<br>
+<strong>mkdir [folder_name]</strong><br>
+<strong>cd [folder_name]</strong><br>
+
 
 2. <strong>Create your project </strong> <br/>
 Now it's time to add the first file in your folder! To do so, lets start by running the 
 [`touch` command](#touch) to create a sample file to upload. In this case, I also wanted to add something to file so I added a sentence by `echo`-ing that sentence into the text file created by the touch command. Last, to make sure the echo worked, I run the following in the command line `more sample.txt`. See image below for more.
 ![sample](sample.png)
-
+The commands run as follows:
+<strong>touch [file_name].txt” e.g. touch file.txt</strong><br>
+<strong>echo ‘Hello Everyone :)!’>file.txt</strong>
+<br> <br>Also note that the last command will also create the file with the file name and type that come after the arrow. I did it step by step in the above example for clarity :).
 
 3. <strong> Check the Status, Add, and Commit </strong><br/>
 To check and see your change, do a git status. You should see the sample.txt file you just created as "untracked", and the file name should appear in red. To begin tracking it, you run the following command:
@@ -103,14 +114,21 @@ Last, run the <strong>git commit -m "[you_custom_message]" </strong>. As seen be
 
 1. [Start Here](https://github.com/) and sign up :)
 2. Once you're done signing up, start by creating a new repository. There should be a green button the left that says "New Repository" and a plus sign, i.e. +, at the top right near the user icon. Select it and select `new repository`. 
-3. On this page, the only item you need to <strong>copy</strong> is the git remote. We will need to modify it slighy for our purposes.
+3. On this page, the only item you need to <strong>copy</strong> is the git remote. We will need to modify it slighy for our purposes. <strong> Don’t follow the instructions here. </strong>
 
 
 <br/><br/>
 ## <a id="chapter-5"></a>
 ### Step 5: Back to the Terminal!
 
+Now, back to your terminal. For the git remote, add in the following:
 
+ <strong>git remote add origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git</strong> <br>
 
-<br/><br/><br/><br/><br/><br/>
+ if you did add the remote provided by github as is, then you can reset it by using the command below:<br>
+ <strong>git remote set-url origin https://[github_usernam]:[github_password]@github.com/[github_username]/[name_of_folder_on_github].git</strong>
+
+And finally, you are now ready to execute the last final needed to push to your Github!
+<br> <strong>git push -u origin master</strong>
+<br/><br/><br/><br/>
 ![cheetsheet](cheatsheet.png)
