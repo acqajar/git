@@ -76,9 +76,12 @@ Now it's time to add the first file in your folder! To do so, lets start by runn
 
 
 3. <strong> Check the Status, Add, and Commit </strong><br/>
-
-
+To check and see your change, do a git status. You should see the sample.txt file you just created as "untracked". To begin tracking it, you run the following command:
+<br/>`git add -A`<br/>
+Then check the status again by running `git status`. At this point the file should be a change to be committed. See below.
+![commit](gitco.png)
 <br/><br/><br/>
+
 
 | Option | Description |
 | ------ | -------- |
