@@ -1,4 +1,7 @@
-*.png	
+# ignore all pngs
+* .png
+* png	
+
 
 cheatsheet.png
 git_install.png
